@@ -1,0 +1,10 @@
+.block-1:before, .block-1::after {
+    position:absolute;
+	top:0;
+	height: 100%;
+	width: 100vw;
+	background: inherit;
+	content:"";
+}
+.block-1:before { right: 100%; }
+.block-1::after { left: 100%; }

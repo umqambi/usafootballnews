@@ -1658,3 +1658,64 @@ img.aligncenter {
     text-decoration: none;
     color: #A4AAAF;
 }
+
+/* block best-items*/
+.footballer-bg {
+	background: url(img/block1-bg.jpg) no-repeat center top;
+	min-height: 500px;
+}
+.block1-items-grop {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -200px;
+	
+}
+.block1-item-wrap {
+	position: relative;
+	margin: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	
+}
+.block1-item-img {
+	margin-top: 90px;
+}
+.block1-item-btn {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	text-decoration: none;
+}
+.block1-item-btn a {
+	background-color: #ff9816;
+	padding: 10px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+}
+.block1-item-btn a:hover {
+	color: white;
+}
+.block1-best-choice-icon {
+    width: 160px;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    text-align: center;
+}
+
+
+@media screen and (max-width: 782px) {
+	.footballer-bg {
+		display: none;
+	}
+	.block1-items-grop {
+		margin-top: 0px;
+	}
+	.block1-best-choice-icon {
+		display: none;
+	}
+}

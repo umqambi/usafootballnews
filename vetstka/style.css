@@ -1678,6 +1678,9 @@ img.aligncenter {
 	border-radius: 10px;
 	
 }
+.block1-item-wrap:hover {
+	opacity: 0.8;
+}
 .block1-item-img {
 	margin-top: 90px;
 }
@@ -1695,7 +1698,9 @@ img.aligncenter {
 	color: white;
 }
 .block1-item-btn a:hover {
+	background-color: black;
 	color: white;
+	border-radius: 10px;
 }
 .block1-best-choice-icon {
     width: 160px;

@@ -1725,13 +1725,16 @@ img.aligncenter {
 
 /* Block xxx-choice */
 .xxx-choice {
-    margin: 30px auto 10px;
+    margin: 30px auto 30px;
     max-width: 800px;
 }
 .xxx-choice-name-row {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
+.xxx-choice-shadow {
+    box-shadow: 10px 7px 10px 5px rgba(0, 0, 0, .2);
 }
 .xxx-choice-num-round {
     background: #0094ac; /* Цвет фона */
@@ -1756,6 +1759,7 @@ img.aligncenter {
 }
 .xxx-choice-name a {
     color: black;
+    font-size: larger;
 }
 
 .xxx-choice-type {
@@ -1788,6 +1792,7 @@ img.aligncenter {
     background-color: #fff;
     padding: 20px 50px;
     margin-top: 15px;
+    box-shadow: 20px 15px 10px 5px rgba(0, 0, 0, .2);
 }
 .xxx-choice-2row div {
     margin-left: auto;

@@ -1658,7 +1658,17 @@ img.aligncenter {
     text-decoration: none;
     color: #A4AAAF;
 }
-
+/* blocks items*/
+.blocks-btn-1 {
+    background-color: #ff9816;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+}
 /* block best-items*/
 .footballer-bg {
     background: url(img/block1-bg.jpg) no-repeat center top;
@@ -1827,6 +1837,61 @@ img.aligncenter {
     transition: .3s ease-in-out;
 }
 
+/* contact-form-block */
+.contact-form-block {
+    margin: 30px 0;
+    background-image: url(img/contact-form-bg.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.contact-form-block-wrap {
+    display: inline-block;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.contact-form-block-header {
+    margin: 15px auto;
+}
+.contact-form-block-header-1 {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #0094ac;
+    font-size: 16px;
+    font-weight: 700;
+}
+.contact-form-block-header-2 {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+}
+.contact-form-block-header-2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    width: 30px;
+    height: 1px;
+    background: #4693aa;
+}
+.contact-form-block-header-3 {
+    padding: 10px 20px;
+    color: #0094ac;
+    font-size: 16px;
+}
+.contact-form-block-form .contact-form-input1 {
+    min-width: 60%;
+}
+.contact-form-confirm-text {
+    font-size: x-small;
+}
+/* media requests */
 @media screen and (max-width: 992px) {
     .block1-item-wrap {
         max-width: 200px;

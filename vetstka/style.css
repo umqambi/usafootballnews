@@ -1935,6 +1935,12 @@ img.aligncenter {
     .xxx-choice-type {
         display: none;
     }
+    .contact-form-block {
+        background-image: none;
+    }
+    .contact-form-block-wrap {
+        margin: auto;
+    }
 }
 
 

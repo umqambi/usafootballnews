@@ -1726,7 +1726,7 @@ img.aligncenter {
 /* Block xxx-choice */
 .xxx-choice {
     margin: 30px auto 10px;
-    max-width: 600px;
+    max-width: 800px;
 }
 .xxx-choice-name-row {
     display: flex;
@@ -1784,16 +1784,27 @@ img.aligncenter {
     left: -40px;
     top: -6px;
 }
+.xxx-choice-2row {
+    background-color: #fff;
+    padding: 20px 50px;
+    margin-top: 15px;
+}
+.xxx-choice-2row div {
+    margin-left: auto;
+    margin-right: auto;
+}
 .xxx-choice-img-row {
     overflow: hidden; /*Скрывает все, что не влазит в блок*/
-
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    max-width: 600px;
 }
-
+.xxx-choice-img-row img {
+    max-width: 600px;
+}
 .xxx-choice-img-row:hover {
     border: 10px solid #333;
     border-radius: 50%;
@@ -1801,12 +1812,11 @@ img.aligncenter {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
-    transform: rotate(360deg);}
-
-
+    transform: rotate(360deg);
+}
 .xxx-choice-btn-row {
     text-align: center;
-    margin: 30px 0;
+    margin: 50px 0 20px;
 }
 .xxx-choice-btn-row a {
     background: #ff9816; /* Цвет фона */
@@ -1934,6 +1944,12 @@ img.aligncenter {
     }
     .xxx-choice-type {
         display: none;
+    }
+    .xxx-choice-2row {
+        padding: 20px 0;
+    }
+    .xxx-choice-img-row img {
+        max-width: 90%;
     }
     .contact-form-block {
         background-image: none;
